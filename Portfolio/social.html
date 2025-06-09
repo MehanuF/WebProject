@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .about-container {
+      background-color: #fff;
+      max-width: 700px;
+      width: 100%;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #0077cc;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    p {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .social-links {
+      margin-top: 25px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .social-links img {
+      width: 36px;
+      height: 36px;
+      transition: transform 0.2s;
+    }
+
+    .social-links img:hover {
+      transform: scale(1.15);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-container">
+ <section class="header">
+
+    <nav>
+
+    <div class="nav-links" id="navLinks">
+    
+<i class="fa fa-times-circle" aria-hidden="true" onclick="hidemenu()"></i>
+
+
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="social.html">SOCIAL MEDIA </a></li>
+            <li><a href="cont.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<BR><BR>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEi1tudEIZ0yoXA6Q0yPBcDbmgUmBcpsUbw&s.jpg" alt="Your Name" class="profile-pic" />
+    <h1>Mehanu Fathima</h1>
+    <p>
+      Hello! <BR> 
+      Let's connect!
+    </p>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/mehanu-fathima-802038327" target="_blank" title="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/MehanuF" target="_blank" title="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" />
+      </a>
+      <a href="https://www.instagram.com/_me_hanu" target="_blank" title="Instagram">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+      </a>
+    </div>
+  </div>
+</body>
+</html>

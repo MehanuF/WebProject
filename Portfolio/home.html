@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <title>MY WEBSITE</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+
+</head>
+<body >
+<style>
+  body {
+    background-image: url(""); 
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /*  Ensure the image covers the entire background, potentially stretching it */
+    background-position: center; /* Center the image */
+  }
+</style>
+    <section class="header">
+
+    <nav>
+
+    <div class="nav-links" id="navLinks">
+    
+<i class="fa fa-times-circle" aria-hidden="true" onclick="hidemenu()"></i>
+
+
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="social.html">SOCIAL MEDIA </a></li>
+            <li><a href="cont.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+<div class="text-box">
+
+<hr>
+    <h1>Hey!I'm Mehanu</h1>
+<hr>
+<br>
+
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
